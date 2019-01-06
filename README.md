@@ -2,7 +2,7 @@
 
 Site for the macOS application "iTunesRatingBar"
 
-![Logo](log2o.png)
+![Logo](logo.png)
 
 ### iTunesRatingBar
 
