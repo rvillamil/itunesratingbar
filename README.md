@@ -1,4 +1,4 @@
-# iTunes Quick Rating Bar
+# iTunes Rating Bar
 
 ## Description
 

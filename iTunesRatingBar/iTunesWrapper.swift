@@ -17,10 +17,10 @@ class iTunesWrapper {
     static let DEFAULT_TEXT = "Not available"
     
     // MARK: Variables
-    var app: iTunesApplication
+    var app: Music
     
     init() {
-        app = SBApplication(bundleIdentifier: "com.apple.iTunes")!
+        app = SBApplication(bundleIdentifier: "com.apple.Music")!
     }
     
     func valueFilled (value:String?) -> String {

@@ -1,4 +1,4 @@
-public enum iTunesScripting: String {
+public enum MusicScripting: String {
     case airplayDevice = "AirPlay device"
     case eqPreset = "EQ preset"
     case eqWindow = "EQ window"

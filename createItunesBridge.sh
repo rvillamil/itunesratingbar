@@ -18,7 +18,7 @@ function createHeaderFiles() {
 
     echo "* Creating objective-C headers for app '${app_name}' in '${output}' directory ..."
     cd ${output} > /dev/null 2>&1
-    sdef /Applications/${app_name}.app > ${app_name}.sdef
+    sdef /System/Applications/${app_name}.app > ${app_name}.sdef
     sdp -fh --basename ${app_name} ${app_name}.sdef
     cd - > /dev/null 2>&1
 
@@ -43,5 +43,5 @@ function createHeaderSwiftFiles() {
 #
 # -- Main
 #
-createHeaderFiles "iTunes" &&
-createHeaderSwiftFiles "iTunes"
+createHeaderFiles "Music" &&
+createHeaderSwiftFiles "Music"

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		5B0230BD21D8CDB7004909A7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0230BC21D8CDB6004909A7 /* Global.swift */; };
 		5B30334F21D22C4C00E09ED6 /* iTunesWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30334E21D22C4B00E09ED6 /* iTunesWrapper.swift */; };
-		5B5AABAE21D142B600FC1238 /* iTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AABAA21D142B600FC1238 /* iTunes.swift */; };
-		5B5AABB021D142B600FC1238 /* iTunesScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AABAD21D142B600FC1238 /* iTunesScripting.swift */; };
 		5B72991421BD17E800C17633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72991321BD17E800C17633 /* AppDelegate.swift */; };
 		5B72991821BD17E900C17633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B72991721BD17E900C17633 /* Assets.xcassets */; };
 		5B72991B21BD17E900C17633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B72991921BD17E900C17633 /* Main.storyboard */; };
@@ -18,16 +16,14 @@
 		5B72992721BD1ACF00C17633 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B72992421BD1ACE00C17633 /* CHANGELOG.md */; };
 		5B72992821BD1ACF00C17633 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B72992521BD1ACE00C17633 /* README.md */; };
 		5B72992A21BD22DE00C17633 /* QuickRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72992921BD22DE00C17633 /* QuickRatingViewController.swift */; };
+		5BDA715424260E7C0061BEFC /* Music.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 5BDA715024260E7C0061BEFC /* Music.sdef */; };
+		5BDA715524260E7C0061BEFC /* MusicScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA715224260E7C0061BEFC /* MusicScripting.swift */; };
+		5BDA715624260E7C0061BEFC /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA715324260E7C0061BEFC /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B0230BC21D8CDB6004909A7 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		5B30334E21D22C4B00E09ED6 /* iTunesWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesWrapper.swift; sourceTree = "<group>"; };
-		5B5AABA921D142B500FC1238 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
-		5B5AABAA21D142B600FC1238 /* iTunes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunes.swift; sourceTree = "<group>"; };
-		5B5AABAB21D142B600FC1238 /* iTunesScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesScripting.h; sourceTree = "<group>"; };
-		5B5AABAC21D142B600FC1238 /* iTunes.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iTunes.sdef; sourceTree = "<group>"; };
-		5B5AABAD21D142B600FC1238 /* iTunesScripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesScripting.swift; sourceTree = "<group>"; };
 		5B72991021BD17E800C17633 /* iTunesRatingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesRatingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B72991321BD17E800C17633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B72991721BD17E900C17633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +37,10 @@
 		5B9E50C921D2AB7000C30AEA /* createItunesBridge.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = createItunesBridge.sh; sourceTree = "<group>"; };
 		5B9E50CA21D375FA00C30AEA /* sbsc.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sbsc.py; sourceTree = "<group>"; };
 		5B9E50CB21D375FA00C30AEA /* sbhc.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sbhc.py; sourceTree = "<group>"; };
+		5BDA715024260E7C0061BEFC /* Music.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Music.sdef; sourceTree = "<group>"; };
+		5BDA715124260E7C0061BEFC /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		5BDA715224260E7C0061BEFC /* MusicScripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicScripting.swift; sourceTree = "<group>"; };
+		5BDA715324260E7C0061BEFC /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +57,10 @@
 		5B5AABCC21D14C4F00FC1238 /* bridge */ = {
 			isa = PBXGroup;
 			children = (
-				5B5AABA921D142B500FC1238 /* iTunes.h */,
-				5B5AABAC21D142B600FC1238 /* iTunes.sdef */,
-				5B5AABAA21D142B600FC1238 /* iTunes.swift */,
-				5B5AABAB21D142B600FC1238 /* iTunesScripting.h */,
-				5B5AABAD21D142B600FC1238 /* iTunesScripting.swift */,
+				5BDA715124260E7C0061BEFC /* Music.h */,
+				5BDA715024260E7C0061BEFC /* Music.sdef */,
+				5BDA715324260E7C0061BEFC /* Music.swift */,
+				5BDA715224260E7C0061BEFC /* MusicScripting.swift */,
 			);
 			path = bridge;
 			sourceTree = "<group>";
@@ -131,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Rodrigo Villamil Pérez";
 				TargetAttributes = {
 					5B72990F21BD17E800C17633 = {
@@ -174,6 +173,7 @@
 				5B72991821BD17E900C17633 /* Assets.xcassets in Resources */,
 				5B72992621BD1ACF00C17633 /* LICENSE.md in Resources */,
 				5B72992821BD1ACF00C17633 /* README.md in Resources */,
+				5BDA715424260E7C0061BEFC /* Music.sdef in Resources */,
 				5B72991B21BD17E900C17633 /* Main.storyboard in Resources */,
 				5B72992721BD1ACF00C17633 /* CHANGELOG.md in Resources */,
 			);
@@ -186,12 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDA715524260E7C0061BEFC /* MusicScripting.swift in Sources */,
 				5B72992A21BD22DE00C17633 /* QuickRatingViewController.swift in Sources */,
 				5B72991421BD17E800C17633 /* AppDelegate.swift in Sources */,
 				5B0230BD21D8CDB7004909A7 /* Global.swift in Sources */,
 				5B30334F21D22C4C00E09ED6 /* iTunesWrapper.swift in Sources */,
-				5B5AABAE21D142B600FC1238 /* iTunes.swift in Sources */,
-				5B5AABB021D142B600FC1238 /* iTunesScripting.swift in Sources */,
+				5BDA715624260E7C0061BEFC /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZRYJPYF2B6;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/iTunesRatingBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -354,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZRYJPYF2B6;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/iTunesRatingBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
